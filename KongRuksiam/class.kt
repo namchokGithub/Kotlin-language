@@ -18,6 +18,6 @@ class Product{
 }
 
 fun main(args: Array<String>) {
-    val p1 = Product("ball", 100)
+    val p1 = Product("Money", 100)
     p1.product_show();
 }

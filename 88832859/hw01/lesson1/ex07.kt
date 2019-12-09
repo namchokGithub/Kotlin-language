@@ -36,7 +36,9 @@ class Team{
     // Function Quality manager
     public fun findQM(){
         for(member in this.teamMember){
-            if(member.getPosition().equals("Quality manager", true)) println("${member.getName()}")
+            when(member.getPosition()){
+                "Quality manager" -> println("${member.getName()}")
+            }
         }
     }
 }
